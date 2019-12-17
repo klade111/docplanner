@@ -1,0 +1,36 @@
+.NV{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;   
+}
+
+.menu{
+    position: relative;
+    padding: 0;
+    
+    list-style: none;
+    display: flex;
+    justify-content:space-between;   
+}
+.menu li{
+
+    margin:10px;
+}
+.drop-C{
+    margin-left: -100px;
+    background:
+    #fff;
+    box-shadow: 0 5px 10px 0
+    #d3cfc9;
+        padding-top: 10px;
+        list-style: none;
+        display: none;
+        position: absolute;
+        margin-left: -100px;
+}
+.drop:hover > ul{
+    display: block;}
